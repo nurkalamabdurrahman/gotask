@@ -1,133 +1,108 @@
-# 🧭 GoTask — Smart Task & Workspace Management
+# GoTask — Task & Workspace Management
 
-🔗 **Live Demo:** [go-task-fe.vercel.app](https://go-task-fe-9hiv-3u7ott389-nurkalamabdurahmans-projects.vercel.app/)
-📦 **Repository:** [GitHub - GoTask-FE](https://github.com/NurkalamAbdurrahman/GoTask-FE)
+A modern web-based application designed to simplify task organization, workspace management, and team collaboration.
 
----
-
-## 📌 Tentang GoTask
-
-**GoTask** adalah aplikasi **manajemen tugas dan kolaborasi tim** berbasis web yang dibangun menggunakan **React, Vite, dan Tailwind CSS**.
-Aplikasi ini membantu pengguna untuk mengatur proyek, tugas, serta kolaborasi dengan efisien melalui sistem **workspace, board, dan card**.
-
-Fokus utama GoTask adalah:
-
-* Meningkatkan produktivitas dan kolaborasi tim
-* Memberikan antarmuka yang cepat, intuitif, dan responsif
-* Memudahkan pengguna dalam mengelola workspace dan tugas harian
+**Live Demo:** [GoTask](https://go-task-fe-9hiv-3u7ott389-nurkalamabdurahmans-projects.vercel.app/)
 
 ---
 
-## 🚀 Tech Stack
+## Overview
 
-| Teknologi                | Fungsi                                  |
-| ------------------------ | --------------------------------------- |
-| ⚡ **Vite**               | Build tool modern dan cepat untuk React |
-| ⚛️ **React JS**          | Library utama untuk membangun UI        |
-| 🎨 **Tailwind CSS**      | Framework CSS untuk desain responsif    |
-| 🧩 **SweetAlert2**       | Library untuk pop-up interaktif         |
-| 🔄 **Axios / Fetch API** | Komunikasi data dengan backend          |
-| 🎯 **DnD Kit**           | Fitur drag & drop pada board dan card   |
+GoTask is a task and workspace management application built to help users organize projects, manage daily tasks, and collaborate efficiently.
 
----
+The application provides an interactive workspace environment with boards and cards, allowing users to manage workflows in a more structured and productive way.
 
-## 📂 Fitur Utama
+## Features
 
-* **Workspace Management** — Buat, edit, dan hapus workspace
-* **Board & Card System** — Tambah, ubah, hapus, dan drag & drop card antar board
-* **Invite Member** — Undang anggota ke workspace melalui email
-* **Search & Filter** — Temukan data dengan cepat
-* **Inline Edit** — Ubah nama workspace langsung di tampilan
-* **Responsive UI** — Desain fleksibel untuk desktop dan mobile
+- **Workspace Management** — Create, edit, and manage workspaces.
+- **Board & Card Management** — Organize tasks using interactive boards and cards.
+- **Drag & Drop** — Move task cards between boards.
+- **Team Collaboration** — Invite members to workspaces through email.
+- **Search & Filter** — Find tasks and workspace information efficiently.
+- **Inline Editing** — Update workspace names directly from the interface.
+- **Responsive Design** — Optimized for desktop and mobile devices.
 
----
+## Tech Stack
 
-## 🧑‍💻 Cara Menjalankan di Lokal
+| Technology | Purpose |
+|---|---|
+| React.js | User interface development |
+| Vite | Development environment and build tool |
+| Tailwind CSS | Utility-first styling |
+| Axios / Fetch API | API communication |
+| SweetAlert2 | Interactive notifications |
+| DnD Kit | Drag-and-drop functionality |
 
-1. **Clone repository**
+## Getting Started
 
-   ```bash
-   git clone https://github.com/NurkalamAbdurrahman/GoTask-FE.git
-   cd GoTask-FE
-   ```
+### Prerequisites
 
-2. **Instal dependensi**
+- Node.js
+- npm
 
-   ```bash
-   npm install
-   ```
+### Installation
 
-3. **Jalankan server lokal**
+Clone the repository:
 
-   ```bash
-   npm run dev
-   ```
+```bash
+git clone https://github.com/NurkalamAbdurahman/gotask.git
 
-4. **Buka di browser**
+cd gotask
+```
 
-   ```
-   http://localhost:5173
-   ```
+Install dependencies:
 
----
+```bash
+npm install
+```
 
-## 📦 Build untuk Produksi
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the application at:
+
+```text
+http://localhost:5173
+```
+
+### Production Build
 
 ```bash
 npm run build
 ```
 
-Hasil build akan tersimpan di folder:
+The production-ready files will be generated in the `dist/` directory.
 
-```
-/dist
-```
+## Project Structure
 
-Folder ini dapat diunggah ke hosting seperti **Vercel**, **Netlify**, atau **GitHub Pages**.
-
----
-
-## 🌍 Demo Online
-
-Project ini sudah dideploy menggunakan **Vercel**:
-👉 [https://go-task-fe-9hiv-3u7ott389-nurkalamabdurrahmans-projects.vercel.app/](https://go-task-fe-9hiv-3u7ott389-nurkalamabdurrahmans-projects.vercel.app/)
-
----
-
-## 📁 Struktur Direktori
-
-```
-GoTask-FE/
+```text
+gotask/
+├── public/
 ├── src/
-│   ├── components/      # Komponen UI utama
-│   ├── pages/           # Halaman dashboard & workspace
-│   ├── services/        # API service & integrasi data
-│   ├── hooks/           # Custom React hooks
-│   ├── assets/          # Gambar, ikon, logo
-│   └── App.jsx          # Komponen utama aplikasi
-├── public/              # File publik
-├── vite.config.js       # Konfigurasi Vite
-├── package.json         # Skrip & dependensi project
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── hooks/
+│   ├── assets/
+│   └── App.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
 └── README.md
 ```
 
----
-
-## 👨‍💻 Pengembang
+## Developer
 
 **Nurkalam Abdurrahman**
-Frontend Developer & Creator of GoTask
-[GitHub](https://github.com/NurkalamAbdurrahman)
+
+Front-End Developer & Creator of GoTask
+
+[GitHub Profile](https://github.com/NurkalamAbdurahman)
 
 ---
 
-## 📜 Lisensi
-
-Project ini bersifat **open source** dan berada di bawah lisensi **MIT**.
-Silakan digunakan, dimodifikasi, dan dikembangkan untuk keperluan pribadi maupun profesional.
-
----
-
-Dibuat dengan ❤️ oleh **Nurkalam Abdurrahman**
-
----
+*Built to make task management and team collaboration simpler and more productive.*
